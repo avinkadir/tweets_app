@@ -1,3 +1,4 @@
+from flask import Flask
 from flask_celery import make_celery
 from celery.result import AsyncResult
 import os
